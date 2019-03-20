@@ -2,7 +2,7 @@
 
 ## Background 
 
-### Let us introduce our Smart Travel app (aka SmartTravel). The main objective for this is to promote a variety of transport options, based on: shortest distance, fastest route, type of transport and disability friendliness. 
+Let us introduce our Smart Travel app (aka SmartTravel). The main objective for this is to promote a variety of transport options, based on: shortest distance, fastest route, type of transport and disability friendliness. 
 
 ## Here are key functions / features of the app:
 1. Public website and app introduction
