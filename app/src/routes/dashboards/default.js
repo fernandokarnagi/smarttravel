@@ -117,32 +117,53 @@ class HomeDefault extends Component {
                             <CardBody>
                                 <CardTitle>Plan your route</CardTitle>
                                 <Form>
-                                    <FormGroup>
-                                        <Label for="from">From</Label>
-                                        <Input type="text" name="from" id="from" placeholder="where from" />
-                                        <FormText color="muted">Your current location / from</FormText>
-                                    </FormGroup>
+                                    <Row className="mb-4">
+                                        <Colxx xxs="12" md="6">
+                                            <FormGroup>
+                                                <Label for="from">From</Label>
+                                                <Input type="text" name="from" id="from" placeholder="where from" />
+                                                <FormText color="muted">Your current location / from</FormText>
+                                            </FormGroup>
+                                        </Colxx>
+                                    </Row>
 
-                                    <FormGroup>
-                                        <Label for="to">To</Label>
-                                        <Input type="text" name="to" id="to" placeholder="where to" />
-                                    </FormGroup>
-                                    <FormGroup>
-                                        <FormText color="muted">Your destination / to</FormText>
-                                    </FormGroup>
+                                    <Row className="mb-4">
+                                        <Colxx xxs="12" md="6">
+                                            <FormGroup>
+                                                <Label for="to">To</Label>
+                                                <Input type="text" name="to" id="to" placeholder="where to" />
+                                            </FormGroup>
+                                        </Colxx>
+                                    </Row>
 
-                                    <FormGroup>
-                                        <Label for="to">When</Label>
-                                        <Input type="text" name="to" id="to" placeholder="where to" />
-                                        <Input type="text" name="to" id="to" placeholder="where to" />
-                                    </FormGroup>
-                                    <FormGroup>
-                                        <FormText color="muted">When are you travelling</FormText>
-                                    </FormGroup>
+                                    <Row className="mb-4">
+                                        <Colxx xxs="12" md="6">
+                                            <FormGroup>
+                                                <FormText color="muted">Your destination / to</FormText>
+                                            </FormGroup>
+                                        </Colxx>
+                                    </Row>
 
-                                    <FormGroup>
-                                        <CustomInput type="checkbox" id="disable" label="Disability Friendly?" />
-                                    </FormGroup>
+                                    <Row className="mb-4">
+                                        <Colxx xxs="12" md="6">
+                                            <FormGroup>
+                                                <Label for="to">When</Label>
+                                                <DatePicker placeholderText="Date" />
+                                                <Input type="text" name="to" id="to" placeholder="where to" />
+                                            </FormGroup>
+                                            <FormGroup>
+                                                <FormText color="muted">When are you travelling</FormText>
+                                            </FormGroup>
+
+                                            <FormGroup>
+                                                <CustomInput
+                                                    type="checkbox"
+                                                    id="disable"
+                                                    label="Disability Friendly?"
+                                                />
+                                            </FormGroup>
+                                        </Colxx>
+                                    </Row>
 
                                     <Button color="primary" className="mt-4">
                                         Plan my trip
