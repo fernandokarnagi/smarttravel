@@ -59,7 +59,10 @@ const InitialPath = ({ component: Component, authUser, ...rest }) => (
 
 class App extends Component {
     render() {
-        const { location, match, user, locale } = this.props;
+        let { location, match, user, locale } = this.props;
+
+        // Fake USER:
+        user = { user: 'fernando' };
         const currentAppLocale = AppLocale[locale];
         if (location.pathname === '/' || location.pathname === '/app' || location.pathname === '/app/') {
             return <Redirect to={defaultStartPath} />;

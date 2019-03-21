@@ -58,7 +58,7 @@ module.exports = {
     'menu.app': 'Home',
     'menu.dashboards': 'Dashboards',
     'menu.onlinehelp': 'Online Help',
-    'menu.default': 'Default',
+    'menu.default': 'Home',
     'menu.analytics': 'Analytics',
     'menu.ecommerce': 'Ecommerce',
     'menu.content': 'Content',
