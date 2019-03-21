@@ -125,20 +125,10 @@ class HomeDefault extends Component {
                                                 <FormText color="muted">Your current location / from</FormText>
                                             </FormGroup>
                                         </Colxx>
-                                    </Row>
-
-                                    <Row className="mb-4">
                                         <Colxx xxs="12" md="6">
                                             <FormGroup>
                                                 <Label for="to">To</Label>
                                                 <Input type="text" name="to" id="to" placeholder="where to" />
-                                            </FormGroup>
-                                        </Colxx>
-                                    </Row>
-
-                                    <Row className="mb-4">
-                                        <Colxx xxs="12" md="6">
-                                            <FormGroup>
                                                 <FormText color="muted">Your destination / to</FormText>
                                             </FormGroup>
                                         </Colxx>
@@ -147,14 +137,26 @@ class HomeDefault extends Component {
                                     <Row className="mb-4">
                                         <Colxx xxs="12" md="6">
                                             <FormGroup>
-                                                <Label for="to">When</Label>
+                                                <Label for="to">Date</Label>
                                                 <DatePicker placeholderText="Date" />
-                                                <Input type="text" name="to" id="to" placeholder="where to" />
                                             </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="6">
                                             <FormGroup>
-                                                <FormText color="muted">When are you travelling</FormText>
+                                                <Label for="to">Time</Label>
+                                                <DatePicker
+                                                    showTimeSelect
+                                                    timeFormat="HH:mm"
+                                                    showTimeSelectOnly
+                                                    timeIntervals={15}
+                                                    placeholderText="Time"
+                                                />
                                             </FormGroup>
+                                        </Colxx>
+                                    </Row>
 
+                                    <Row className="mb-4">
+                                        <Colxx xxs="12" md="6">
                                             <FormGroup>
                                                 <CustomInput
                                                     type="checkbox"
