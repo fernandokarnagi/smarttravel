@@ -654,7 +654,7 @@ module.exports = {
     'lp.footer.menu-4-1': 'Security',
     'lp.footer.menu-4-2': 'Privacy',
     'lp.footer.menu-4-3': 'Cookies',
-    'lp.footer.copyright': '2018 © ColoredStrategies',
+    'lp.footer.copyright': '2019 © SmartTravel',
 
     'lp.blogsection.title': 'Latest from Blog',
     'lp.blogsection.detail':
