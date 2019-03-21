@@ -1,0 +1,5 @@
+node_modules/
+/build
+*.swo
+*.swp
+*.DS_Store
