@@ -45,7 +45,7 @@ export default class SearchLayout extends Component {
                                 {this.state.items.map((item, i) => {
                                     return (
                                         <div key={i} className={`${rowLength !== i + 1 ? 'mb-3' : ''}`}>
-                                            <NavLink to={`#${item.id}`} className="w-40 w-sm-100">
+                                            <NavLink to={`./placedetails`} className="w-40 w-sm-100">
                                                 <p className="list-item-heading mb-1 color-theme-1">{item.name}</p>
                                                 <p className="mb-1 text-muted text-small">Category | {item.category}</p>
                                                 <p className="mb-1 text-muted  text-small">
