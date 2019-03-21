@@ -219,9 +219,7 @@ class Sidebar extends Component {
                                                 this.state.viewingParentMenu == '') ||
                                             this.state.viewingParentMenu == 'dashboards',
                                     })}>
-                                    <NavLink
-                                        to="/app/dashboards/default"
-                                        onClick={e => this.openSubMenu(e, 'dashboards')}>
+                                    <NavLink to="/app/dashboards/default">
                                         <i className="iconsmind-Shop-4" /> <IntlMessages id="menu.dashboards" />
                                     </NavLink>
                                 </NavItem>
