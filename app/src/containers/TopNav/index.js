@@ -236,15 +236,15 @@ class TopNav extends Component {
 
                 <div className="ml-auto">
                     <div className="header-icons d-inline-block align-middle">
-                        <div className="position-relative d-none d-none d-lg-inline-block">
+                        {/* <div className="position-relative d-none d-none d-lg-inline-block">
                             <a
                                 className="btn btn-outline-primary btn-sm mb-2 mr-3"
                                 target="_top"
                                 href="https://themeforest.net/cart/configure_before_adding/22544383?license=regular&ref=ColoredStrategies&size=source">
                                 <IntlMessages id="user.buy" />
                             </a>
-                        </div>
-                        <div className="position-relative d-none d-sm-inline-block">
+                        </div> */}
+                        {/* <div className="position-relative d-none d-sm-inline-block">
                             <UncontrolledDropdown className="dropdown-menu-right">
                                 <DropdownToggle className="header-icon" color="empty">
                                     <i className="simple-icon-grid" />
@@ -272,9 +272,9 @@ class TopNav extends Component {
                                     </NavLink>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
-                        </div>
+                        </div> */}
 
-                        <div className="position-relative d-inline-block">
+                        {/* <div className="position-relative d-inline-block">
                             <UncontrolledDropdown className="dropdown-menu-right">
                                 <DropdownToggle className="header-icon notificationButton" color="empty">
                                     <i className="simple-icon-bell" />
@@ -304,7 +304,7 @@ class TopNav extends Component {
                                     </PerfectScrollbar>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
-                        </div>
+                        </div> */}
 
                         <button
                             className="header-icon btn btn-empty d-none d-sm-inline-block"
@@ -328,8 +328,8 @@ class TopNav extends Component {
                             </DropdownToggle>
                             <DropdownMenu className="mt-3" right>
                                 <DropdownItem>Account</DropdownItem>
-                                <DropdownItem>Features</DropdownItem>
-                                <DropdownItem>History</DropdownItem>
+                                {/* <DropdownItem>Features</DropdownItem>
+                                <DropdownItem>History</DropdownItem> */}
                                 <DropdownItem>Support</DropdownItem>
                                 <DropdownItem divider />
                                 <DropdownItem onClick={() => this.handleLogout()}>Sign out</DropdownItem>

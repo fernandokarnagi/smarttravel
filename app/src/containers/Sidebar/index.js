@@ -229,6 +229,18 @@ class Sidebar extends Component {
                                 <NavItem
                                     className={classnames({
                                         active:
+                                            (this.state.selectedParentMenu == 'onlinehelp' &&
+                                                this.state.viewingParentMenu == '') ||
+                                            this.state.viewingParentMenu == 'onlinehelp',
+                                    })}>
+                                    <NavLink to="/app/applications/chat">
+                                        <i className="simple-icon-bubbles" /> <IntlMessages id="menu.onlinehelp" />
+                                    </NavLink>
+                                </NavItem>
+
+                                {/* <NavItem
+                                    className={classnames({
+                                        active:
                                             (this.state.selectedParentMenu == 'layouts' &&
                                                 this.state.viewingParentMenu == '') ||
                                             this.state.viewingParentMenu == 'layouts',
@@ -281,7 +293,7 @@ class Sidebar extends Component {
                                     <NavLink to="/app/menu" onClick={e => this.openSubMenu(e, 'menu')}>
                                         <i className="iconsmind-Three-ArrowFork" /> <IntlMessages id="menu.menu" />
                                     </NavLink>
-                                </NavItem>
+                                </NavItem> */}
                             </Nav>
                         </PerfectScrollbar>
                     </div>
