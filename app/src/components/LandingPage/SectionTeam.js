@@ -38,13 +38,15 @@ export default class SectionTeam extends React.Component {
                                         alt="Card cap"
                                     />
                                     <Badge color="secondary" pill className="position-absolute badge-top-left">
-                                        FRONTEND
+                                        TEAM LEAD
                                     </Badge>
                                 </div>
                                 <CardBody>
-                                    <h6 className="mb-4">Philip Nelms</h6>
+                                    <h6 className="mb-4">Rups</h6>
                                     <footer>
-                                        <p className="text-muted text-small mb-0 font-weight-light">Sr. Developer</p>
+                                        <p className="text-muted text-small mb-0 font-weight-light">
+                                            Smart City & Big Data Architect
+                                        </p>
                                     </footer>
                                 </CardBody>
                             </Card>
@@ -55,17 +57,19 @@ export default class SectionTeam extends React.Component {
                                 <div className="position-relative">
                                     <img
                                         className="card-img-top"
-                                        src="/assets/img/landing-page/team-3.jpg"
+                                        src="/assets/img/landing-page/team-4.jpg"
                                         alt="Card cap"
                                     />
                                     <Badge color="secondary" pill className="position-absolute badge-top-left">
-                                        FRONTEND
+                                        FULL STACK
                                     </Badge>
                                 </div>
                                 <CardBody>
-                                    <h6 className="mb-4">Mimi Carreira</h6>
+                                    <h6 className="mb-4">Fernando</h6>
                                     <footer>
-                                        <p className="text-muted text-small mb-0 font-weight-light">Jr. Developer</p>
+                                        <p className="text-muted text-small mb-0 font-weight-light">
+                                            AWS Tech Architect
+                                        </p>
                                     </footer>
                                 </CardBody>
                             </Card>
@@ -76,15 +80,15 @@ export default class SectionTeam extends React.Component {
                                 <div className="position-relative">
                                     <img
                                         className="card-img-top"
-                                        src="/assets/img/landing-page/team-2.jpg"
+                                        src="/assets/img/landing-page/team-1.jpg"
                                         alt="Card cap"
                                     />
                                     <Badge color="primary" pill className="position-absolute badge-top-left">
-                                        BACKEND
+                                        BACK END
                                     </Badge>
                                 </div>
                                 <CardBody>
-                                    <h6 className="mb-4">Terese Threadgill</h6>
+                                    <h6 className="mb-4">Ian Goh</h6>
                                     <footer>
                                         <p className="text-muted text-small mb-0 font-weight-light">Sr. Developer</p>
                                     </footer>
@@ -101,18 +105,18 @@ export default class SectionTeam extends React.Component {
                                         alt="Card cap"
                                     />
                                     <Badge color="primary" pill className="position-absolute badge-top-left">
-                                        BACKEND
+                                        FRONT END
                                     </Badge>
                                 </div>
                                 <CardBody>
-                                    <h6 className="mb-4">Terese Threadgill</h6>
+                                    <h6 className="mb-4">Ishanh</h6>
                                     <footer>
                                         <p className="text-muted text-small mb-0 font-weight-light">Sr. Developer</p>
                                     </footer>
                                 </CardBody>
                             </Card>
                         </div>
-
+                        {/* 
                         <div className="pr-3 pl-3 d-flex">
                             <Card>
                                 <div className="position-relative">
@@ -132,7 +136,7 @@ export default class SectionTeam extends React.Component {
                                     </footer>
                                 </CardBody>
                             </Card>
-                        </div>
+                        </div> */}
                     </ReactSiemaCarousel>
                 </Colxx>
             </Row>

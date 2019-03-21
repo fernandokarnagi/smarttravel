@@ -93,7 +93,7 @@ export default class SectionHero extends React.Component {
                                             <IntlMessages id="lp.footer.menu-1-1" />
                                         </NavLink>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <NavLink to="/blog">
                                             <IntlMessages id="lp.footer.menu-1-2" />
                                         </NavLink>
@@ -102,7 +102,7 @@ export default class SectionHero extends React.Component {
                                         <NavLink to="/careers">
                                             <IntlMessages id="lp.footer.menu-1-3" />
                                         </NavLink>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <NavLink to="/contact">
                                             <IntlMessages id="lp.footer.menu-1-4" />
@@ -140,21 +140,21 @@ export default class SectionHero extends React.Component {
                                             <IntlMessages id="lp.footer.menu-2-1" />
                                         </NavLink>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <NavLink to="/prices">
                                             <IntlMessages id="lp.footer.menu-2-2" />
                                         </NavLink>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <NavLink to="/docs-details">
                                             <IntlMessages id="lp.footer.menu-2-3" />
                                         </NavLink>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <NavLink to="/docs-details">
                                             <IntlMessages id="lp.footer.menu-2-4" />
                                         </NavLink>
-                                    </li>
+                                    </li> */}
                                 </Collapse>
                             </div>
                         </Colxx>

@@ -29,11 +29,7 @@ export default class SectionHeroHome extends React.Component {
         return (
             <Row className="home-row">
                 <Colxx xxs="12" className="d-block d-md-none">
-                    <img
-                        alt="mobile hero"
-                        className="mobile-hero"
-                        src="/assets/img/landing-page/home-hero-mobile.png"
-                    />
+                    <img alt="mobile hero" className="mobile-hero" src="/assets/img/jk-35135-unsplash.jpg" />
                 </Colxx>
 
                 <Colxx xxs="12" xl="4" lg="5" md="6">
@@ -59,7 +55,7 @@ export default class SectionHeroHome extends React.Component {
                 </Colxx>
 
                 <Colxx xxs="12" xl={{ size: 7, offset: 1 }} md="6" lg="7" className="d-none d-md-block">
-                    <img alt="hero" src="/assets/img/landing-page/home-hero.png" />
+                    <img width="794" height="494" alt="hero" src="/assets/img/jk-35135-unsplash.jpg" />
                 </Colxx>
             </Row>
         );

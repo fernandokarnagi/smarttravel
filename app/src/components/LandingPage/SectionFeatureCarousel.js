@@ -35,9 +35,9 @@ export default class SectionFeatureCarousel extends React.Component {
                                             <IntlMessages id="lp.featurecarousel.detail-1" />
                                         </p>
                                     </div>
-                                    <NavLink className="btn btn-link font-weight-semibold" to="/features">
+                                    {/* <NavLink className="btn btn-link font-weight-semibold" to="/features">
                                         <IntlMessages id="lp.featurecarousel.view" />
-                                    </NavLink>
+                                    </NavLink> */}
                                 </CardBody>
                             </Card>
                         </div>
@@ -55,9 +55,9 @@ export default class SectionFeatureCarousel extends React.Component {
                                             <IntlMessages id="lp.featurecarousel.detail-2" />
                                         </p>
                                     </div>
-                                    <NavLink className="btn btn-link font-weight-semibold" to="/features">
+                                    {/* <NavLink className="btn btn-link font-weight-semibold" to="/features">
                                         <IntlMessages id="lp.featurecarousel.view" />
-                                    </NavLink>
+                                    </NavLink> */}
                                 </CardBody>
                             </Card>
                         </div>
@@ -75,14 +75,14 @@ export default class SectionFeatureCarousel extends React.Component {
                                             <IntlMessages id="lp.featurecarousel.detail-3" />
                                         </p>
                                     </div>
-                                    <NavLink className="btn btn-link font-weight-semibold" to="/features">
+                                    {/* <NavLink className="btn btn-link font-weight-semibold" to="/features">
                                         <IntlMessages id="lp.featurecarousel.view" />
-                                    </NavLink>
+                                    </NavLink> */}
                                 </CardBody>
                             </Card>
                         </div>
 
-                        <div className="pr-3 pl-3">
+                        {/* <div className="pr-3 pl-3">
                             <Card>
                                 <CardBody className="text-center">
                                     <div>
@@ -121,7 +121,7 @@ export default class SectionFeatureCarousel extends React.Component {
                                     </NavLink>
                                 </CardBody>
                             </Card>
-                        </div>
+                        </div> */}
                     </ReactSiemaCarousel>
                 </Colxx>
             </Row>

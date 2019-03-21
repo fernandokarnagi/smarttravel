@@ -89,29 +89,11 @@ class MultipageHome extends Component {
                                 </Container>
                             </div>
 
-                            {/* <div className="section" ref={(x) => { this.features = x; }}>
-                <Container>
-                  <Features />
-                </Container>
-              </div> */}
-
-                            {/* <div className="section background">
-                <Container>
-                  <Reviews />
-                </Container>
-              </div> */}
-
                             <div className="section">
                                 <Container>
                                     <Team />
                                 </Container>
                             </div>
-
-                            {/* <div className="section background background-no-bottom mb-0">
-                <Container>
-                  <Clients />
-                </Container>
-              </div> */}
 
                             <div className="section footer mb-0">
                                 <Footer onClick={this.onMenuClick} />

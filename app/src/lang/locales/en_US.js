@@ -552,19 +552,20 @@ module.exports = {
     'lp.menu.signup': 'SIGN UP',
     'lp.menu.reviews': 'REVIEWS',
 
-    'lp.hero.line-1': 'MAGIC IS IN',
-    'lp.hero.line-2': 'THE DETAILS',
-    'lp.hero.detail-line-1': 'Gogo is a combination of good design, quality code and attention for details.',
-    'lp.hero.detail-line-2': 'We used same design language for components, layouts, apps and other parts of the theme.',
+    'lp.hero.line-1': 'SMART IN',
+    'lp.hero.line-2': 'TRAVEL',
+    'lp.hero.detail-line-1': 'Helping community with a variety of transport options',
+    'lp.hero.detail-line-2':
+        'Find your travel route by shortest distance, fastest route, type of transport and disability friendliness',
     'lp.hero.detail-line-3': 'Hope you enjoy it!',
     'lp.hero.register': 'REGISTER NOW',
 
-    'lp.featurecarousel.title-1': 'Tasteful Design',
+    'lp.featurecarousel.title-1': 'Ease of use',
     'lp.featurecarousel.detail-1': 'User experience principles at the heart of the design process.',
-    'lp.featurecarousel.title-2': 'Superfine Charts',
-    'lp.featurecarousel.detail-2': 'Charts that looks good with color, opacity, border and shadow.',
-    'lp.featurecarousel.title-3': 'Two Panels Menu',
-    'lp.featurecarousel.detail-3': 'A two part menu that looks good and does the job well.',
+    'lp.featurecarousel.title-2': 'Recommendation',
+    'lp.featurecarousel.detail-2': 'Finding the best route by recommendation engine.',
+    'lp.featurecarousel.title-3': 'Personalised',
+    'lp.featurecarousel.detail-3': 'Add route to my favourite',
     'lp.featurecarousel.title-4': 'Layouts for the Job',
     'lp.featurecarousel.detail-4': 'Lots of different layouts for different tasks.',
     'lp.featurecarousel.title-5': 'Extra Responsive',
@@ -620,7 +621,7 @@ module.exports = {
 
     'lp.team.title': 'Meet the Team',
     'lp.team.detail-1':
-        'Our team brings a wealth of experience from some of the world’s most formidable production studios, agencies and startups.',
+        'Our team brings a wealth of experience from some of the world’s most formidable smart city and tech professionals.',
     'lp.team.detail-2':
         'We’re led by a team who constantly questions, tinkers, and challenges to unlock great creativity around every turn.',
 

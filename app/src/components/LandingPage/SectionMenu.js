@@ -50,7 +50,7 @@ export class MenuMultipage extends Component {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </NavItem>
-                    <NavItem className={window.location.pathname === '/prices' ? 'active' : ''}>
+                    {/* <NavItem className={window.location.pathname === '/prices' ? 'active' : ''}>
                         <NavLink to="/prices">
                             <IntlMessages id="lp.menu.pricing" />
                         </NavLink>
@@ -59,7 +59,7 @@ export class MenuMultipage extends Component {
                         <NavLink to="/blog">
                             <IntlMessages id="lp.menu.blog" />
                         </NavLink>
-                    </NavItem>
+                    </NavItem> */}
                     <NavItem className={window.location.pathname === '/auth-login' ? 'active' : ''}>
                         <NavLink to="/auth-login">
                             <IntlMessages id="lp.menu.signin" />
@@ -137,7 +137,7 @@ export class MenuMultipageMobile extends React.Component {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </NavItem>
-                    <NavItem className={window.location.pathname === '/prices' ? 'active' : ''}>
+                    {/* <NavItem className={window.location.pathname === '/prices' ? 'active' : ''}>
                         <NavLink to="/prices">
                             <IntlMessages id="lp.menu.pricing" />
                         </NavLink>
@@ -146,7 +146,7 @@ export class MenuMultipageMobile extends React.Component {
                         <NavLink to="/blog">
                             <IntlMessages id="lp.menu.blog" />
                         </NavLink>
-                    </NavItem>
+                    </NavItem> */}
 
                     <NavItem>
                         <div className="separator" />
