@@ -225,41 +225,33 @@ class HomeDefault extends Component {
                                     <Row className="mb-4">
                                         <Colxx xxs="12" md="4">
                                             <FormGroup>
-                                                <CustomInput type="radio" id="bus" label="Public Bus" />
+                                                <CustomInput
+                                                    type="radio"
+                                                    id="choice"
+                                                    name="choice"
+                                                    label="By shortest time"
+                                                />
                                             </FormGroup>
                                         </Colxx>
-                                        <Colxx xxs="12" md="4">
-                                            <FormGroup>
-                                                <CustomInput type="checkbox" id="bus" label="Public Train" />
-                                            </FormGroup>
-                                        </Colxx>
-                                        <Colxx xxs="12" md="4">
-                                            <FormGroup>
-                                                <CustomInput type="checkbox" id="bus" label="Private Hire Bus" />
-                                            </FormGroup>
-                                        </Colxx>
-                                        <Colxx xxs="12" md="4">
-                                            <FormGroup>
-                                                <CustomInput type="checkbox" id="bus" label="Public Taxi" />
-                                            </FormGroup>
-                                        </Colxx>
-                                        <Colxx xxs="12" md="4">
-                                            <FormGroup>
-                                                <CustomInput type="checkbox" id="bus" label="Online Taxi" />
-                                            </FormGroup>
-                                        </Colxx>
-                                        <Colxx xxs="12" md="4">
-                                            <FormGroup>
-                                                <CustomInput type="checkbox" id="bus" label="Shared Bike" />
-                                            </FormGroup>
-                                        </Colxx>
+
                                         <Colxx xxs="12" md="4">
                                             <FormGroup>
                                                 <CustomInput
-                                                    type="checkbox"
-                                                    id="bus"
-                                                    label="Public Train"
-                                                    label="Walk"
+                                                    type="radio"
+                                                    id="choice"
+                                                    name="choice"
+                                                    label="By fastest route"
+                                                />
+                                            </FormGroup>
+                                        </Colxx>
+
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput
+                                                    type="radio"
+                                                    id="choice"
+                                                    name="choice"
+                                                    label="By lowest cost"
                                                 />
                                             </FormGroup>
                                         </Colxx>
