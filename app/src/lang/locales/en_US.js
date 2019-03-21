@@ -59,6 +59,7 @@ module.exports = {
     'menu.dashboards': 'Dashboards',
     'menu.planner': 'Travel Planner',
     'menu.find': 'Find Place',
+    'menu.places': 'Places',
     'menu.onlinehelp': 'Online Help',
     'menu.default': 'Home',
     'menu.analytics': 'Analytics',

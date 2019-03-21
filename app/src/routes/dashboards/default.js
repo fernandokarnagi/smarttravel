@@ -129,7 +129,11 @@ class HomeDefault extends Component {
                                             </FormGroup>
                                         </Colxx>
                                     </Row>
-                                    <Button color="primary">Search</Button>
+                                    <Button
+                                        onClick={e => this.props.history.push(`/app/dashboards/places`)}
+                                        color="primary">
+                                        Search
+                                    </Button>
                                 </Form>
                             </CardBody>
                         </Card>

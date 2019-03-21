@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "City Hall Mall",
+            "img": "/assets/img/marble-cake-thumb.jpg",
+            "category": "Mall",
+            "createDate": "02.04.2018",
+            "status": "ON HOLD",
+            "statusColor": "primary",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "sales": 1647,
+            "availableTransports": 5,
+            "shortestTime": "10 minutes by Grab",
+            "cheapest": "$1.5 by SMRT Bus",
+            "stock": 62
+        },
+        {
+            "id": 2,
+            "name": "City Hall Plaza",
+            "img": "/assets/img/marble-cake-thumb.jpg",
+            "category": "Plaza",
+            "createDate": "02.04.2018",
+            "status": "ON HOLD",
+            "statusColor": "primary",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "sales": 1647,
+            "availableTransports": 2,
+            "shortestTime": "10 minutes by Grab",
+            "cheapest": "$1.5 by SMRT Bus",
+            "stock": 62
+        },
+        {
+            "id": 3,
+            "name": "City Council",
+            "img": "/assets/img/marble-cake-thumb.jpg",
+            "category": "Plaza",
+            "createDate": "02.04.2018",
+            "status": "ON HOLD",
+            "statusColor": "primary",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "sales": 1647,
+            "availableTransports": 3,
+            "shortestTime": "10 minutes by Grab",
+            "cheapest": "$1.5 by SMRT Bus",
+            "stock": 62
+        }
+    ]
+}
