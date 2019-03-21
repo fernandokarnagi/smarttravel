@@ -170,8 +170,12 @@ class ChatApplication extends Component {
                                         </div>
                                     </div>
                                 </div>
+                                <Button color="primary" className="mb-2">
+                                    Send money
+                                </Button>
                             </div>
                         )}
+
                         <div className="separator mb-5" />
 
                         {selectedConversation && (

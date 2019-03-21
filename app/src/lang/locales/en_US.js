@@ -63,6 +63,7 @@ module.exports = {
     'menu.places': 'Places',
     'menu.onlinehelp': 'Online Help',
     'menu.default': 'Home',
+    'menu.friends': 'My Friends',
     'menu.analytics': 'Analytics',
     'menu.ecommerce': 'Ecommerce',
     'menu.content': 'Content',

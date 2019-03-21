@@ -81,40 +81,56 @@ export default class Wallet extends Component {
                         </Row>
 
                         <Row className="icon-cards-row mb-2">
-                            <Colxx xxs="6" sm="4" md="3" lg="3">
+                            <Colxx xxs="12" md="3" lg="3">
                                 <Card className="mb-4">
                                     <CardBody className="text-center">
                                         <p className="card-text font-weight-semibold mb-0">Current balance (SGD)</p>
-                                        <p className="lead text-center">25</p>
+                                        <p className="lead text-center">25</p> <br />
+                                        <Button color="primary" className="mb-2">
+                                            Top-up
+                                        </Button>{' '}
+                                        <Button color="secondary" className="mb-2">
+                                            Transfer
+                                        </Button>{' '}
                                     </CardBody>
                                 </Card>
                             </Colxx>
 
-                            <Colxx xxs="6" sm="4" md="3" lg="3">
+                            <Colxx xxs="12" md="3" lg="3">
                                 <Card className="mb-4">
                                     <CardBody className="text-center">
                                         <p className="card-text font-weight-semibold mb-0">Last transaction (SGD)</p>
                                         <p className="lead text-center">2.5</p>
+                                        <br />
+                                        <Button color="primary" className="mb-2">
+                                            View
+                                        </Button>
                                     </CardBody>
                                 </Card>
                             </Colxx>
-                            <Colxx xxs="6" sm="4" md="3" lg="3">
+                            <Colxx xxs="12" md="3" lg="3">
                                 <Card className="mb-4">
                                     <CardBody className="text-center">
                                         <p className="card-text font-weight-semibold mb-0">
                                             Total spending this month (SGD)
                                         </p>
-                                        <p className="lead text-center">74</p>
+                                        <p className="lead text-center">74</p> <br />
+                                        <Button color="primary" className="mb-2">
+                                            View history
+                                        </Button>
                                     </CardBody>
                                 </Card>
                             </Colxx>
-                            <Colxx xxs="6" sm="4" md="3" lg="3">
+                            <Colxx xxs="12" md="3" lg="3">
                                 <Card className="mb-4">
                                     <CardBody className="text-center">
                                         <p className="card-text font-weight-semibold mb-0">
                                             Total top-up this month (SGD)
                                         </p>
-                                        <p className="lead text-center">80</p>
+                                        <p className="lead text-center">80</p> <br />
+                                        <Button color="primary" className="mb-2">
+                                            View history
+                                        </Button>
                                     </CardBody>
                                 </Card>
                             </Colxx>

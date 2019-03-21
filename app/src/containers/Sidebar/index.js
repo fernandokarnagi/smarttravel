@@ -251,12 +251,12 @@ class Sidebar extends Component {
                                 <NavItem
                                     className={classnames({
                                         active:
-                                            (this.state.selectedParentMenu == 'onlinehelp' &&
+                                            (this.state.selectedParentMenu == 'friends' &&
                                                 this.state.viewingParentMenu == '') ||
-                                            this.state.viewingParentMenu == 'onlinehelp',
+                                            this.state.viewingParentMenu == 'friends',
                                     })}>
                                     <NavLink to="/app/applications/chat">
-                                        <i className="fas fa-question-circle" /> <IntlMessages id="menu.onlinehelp" />
+                                        <i className="fas fa-user-friends" /> <IntlMessages id="menu.friends" />
                                     </NavLink>
                                 </NavItem>
 

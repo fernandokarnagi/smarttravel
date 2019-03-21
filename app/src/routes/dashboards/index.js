@@ -10,6 +10,7 @@ import placedetails from './placedetails';
 import wallet from './wallet';
 import contentDash from './content';
 import analyticsDash from './analytics';
+import routedetails from './routedetails';
 import ecommerceDash from './ecommerce';
 
 const Dashboards = ({ match }) => (
@@ -20,6 +21,7 @@ const Dashboards = ({ match }) => (
             <Route path={`${match.url}/planner`} component={planner} />
             <Route path={`${match.url}/places`} component={places} />
             <Route path={`${match.url}/wallet`} component={wallet} />
+            <Route path={`${match.url}/routedetails`} component={routedetails} />
             <Route path={`${match.url}/placedetails`} component={placedetails} />
             <Route path={`${match.url}/content`} component={contentDash} />
             <Route path={`${match.url}/ecommerce`} component={ecommerceDash} />

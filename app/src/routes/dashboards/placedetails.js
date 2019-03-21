@@ -86,11 +86,7 @@ export default class PlaceDetails extends Component {
                                                     <i className="simple-icon-pencil" />
                                                 </Button>
                                             </div> */}
-                                    <img
-                                        src="https://www.maxpixel.net/static/photo/2x/Singapore-National-Gallery-City-Hall-Building-2506931.jpg"
-                                        alt="Detail"
-                                        className="card-img-top"
-                                    />
+                                    <img src="/assets/img/cityhall.jpg" alt="Detail" className="card-img-top" />
 
                                     <CardBody>
                                         <p className="text-muted text-small mb-2">
