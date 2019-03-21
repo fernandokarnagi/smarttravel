@@ -131,6 +131,9 @@ export default class PlaceDetails extends Component {
 
                                         <p className="text-muted text-small mb-2">In my favourite?</p>
                                         <p>No</p>
+                                        <Button color="primary" className="mb-2">
+                                            Add to favourite
+                                        </Button>
                                     </CardBody>
                                 </Card>
                             </Colxx>

@@ -134,6 +134,9 @@ export default class PlaceDetails extends Component {
 
                                         <p className="text-muted text-small mb-2">In my favourite?</p>
                                         <p>No</p>
+                                        <Button color="primary" className="mb-2">
+                                            Add to favourite
+                                        </Button>
                                     </CardBody>
                                 </Card>
                             </Colxx>
@@ -142,38 +145,27 @@ export default class PlaceDetails extends Component {
                                 <VerticalTimeline>
                                     <VerticalTimelineElement
                                         className="vertical-timeline-element--work"
-                                        date="2011 - present"
+                                        date="11:00 AM"
                                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-                                        <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                                        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-                                        <p>
-                                            Creative Direction, User Experience, Visual Design, Project Management, Team
-                                            Leading
-                                        </p>
+                                        <h3 className="vertical-timeline-element-title">Bishan Bus Interchange</h3>
+                                        <h4 className="vertical-timeline-element-subtitle">Bishan</h4>
+                                        <p>Take SMRT Bus 167 (SGD 0.5)</p>
                                     </VerticalTimelineElement>
                                     <VerticalTimelineElement
                                         className="vertical-timeline-element--work"
-                                        date="2010 - 2011"
+                                        date="11:15 AM"
                                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-                                        <h3 className="vertical-timeline-element-title">Art Director</h3>
-                                        <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                                        <p>Creative Direction, User Experience, Visual Design, SEO, Online Marketing</p>
+                                        <h3 className="vertical-timeline-element-title">Toa Payoh Bus Stop 152</h3>
+                                        <h4 className="vertical-timeline-element-subtitle">Toa Payoh</h4>
+                                        <p>Change to SMRT Bus 25 (SGD 0.5)</p>
                                     </VerticalTimelineElement>
                                     <VerticalTimelineElement
                                         className="vertical-timeline-element--work"
-                                        date="2008 - 2010"
+                                        date="11:45 AM"
                                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-                                        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                                        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-                                        <p>User Experience, Visual Design</p>
-                                    </VerticalTimelineElement>
-                                    <VerticalTimelineElement
-                                        className="vertical-timeline-element--work"
-                                        date="2006 - 2008"
-                                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-                                        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                                        <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                                        <p>User Experience, Visual Design</p>
+                                        <h3 className="vertical-timeline-element-title">Orchard Bus Interchange</h3>
+                                        <h4 className="vertical-timeline-element-subtitle">Orchard</h4>
+                                        <p>Take bus SMRT 61 (SGD 0.5)</p>
                                     </VerticalTimelineElement>
                                 </VerticalTimeline>
                             </Colxx>
