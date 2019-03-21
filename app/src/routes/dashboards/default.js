@@ -121,14 +121,24 @@ class HomeDefault extends Component {
                                         <Colxx xxs="12" md="6">
                                             <FormGroup>
                                                 <Label for="from">From</Label>
-                                                <Input type="text" name="from" id="from" placeholder="where from" />
+                                                <Input
+                                                    type="text"
+                                                    name="from"
+                                                    id="from"
+                                                    placeholder="Address, building name, postal code"
+                                                />
                                                 <FormText color="muted">Your current location / from</FormText>
                                             </FormGroup>
                                         </Colxx>
                                         <Colxx xxs="12" md="6">
                                             <FormGroup>
                                                 <Label for="to">To</Label>
-                                                <Input type="text" name="to" id="to" placeholder="where to" />
+                                                <Input
+                                                    type="text"
+                                                    name="to"
+                                                    id="to"
+                                                    placeholder="Address, building name, postal code"
+                                                />
                                                 <FormText color="muted">Your destination / to</FormText>
                                             </FormGroup>
                                         </Colxx>
@@ -156,12 +166,100 @@ class HomeDefault extends Component {
                                     </Row>
 
                                     <Row className="mb-4">
-                                        <Colxx xxs="12" md="6">
+                                        <Colxx xxs="12">
                                             <FormGroup>
                                                 <CustomInput
                                                     type="checkbox"
                                                     id="disable"
-                                                    label="Disability Friendly?"
+                                                    label="Disability friendly?"
+                                                />
+                                            </FormGroup>
+                                        </Colxx>
+                                    </Row>
+
+                                    <Label for="to">Mode of transport</Label>
+                                    <Row className="mb-4">
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Public Bus" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Public Train" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Private Hire Bus" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Public Taxi" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Online Taxi" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Shared Bike" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput
+                                                    type="checkbox"
+                                                    id="bus"
+                                                    label="Public Train"
+                                                    label="Walk"
+                                                />
+                                            </FormGroup>
+                                        </Colxx>
+                                    </Row>
+
+                                    <Label for="to">Preferred Choice</Label>
+                                    <Row className="mb-4">
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="radio" id="bus" label="Public Bus" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Public Train" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Private Hire Bus" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Public Taxi" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Online Taxi" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Shared Bike" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput
+                                                    type="checkbox"
+                                                    id="bus"
+                                                    label="Public Train"
+                                                    label="Walk"
                                                 />
                                             </FormGroup>
                                         </Colxx>
