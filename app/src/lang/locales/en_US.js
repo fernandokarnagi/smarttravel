@@ -57,6 +57,8 @@ module.exports = {
     /* 03.Menu */
     'menu.app': 'Home',
     'menu.dashboards': 'Dashboards',
+    'menu.planner': 'Travel Planner',
+    'menu.find': 'Find Place',
     'menu.onlinehelp': 'Online Help',
     'menu.default': 'Home',
     'menu.analytics': 'Analytics',

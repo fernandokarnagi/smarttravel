@@ -220,7 +220,19 @@ class Sidebar extends Component {
                                             this.state.viewingParentMenu == 'dashboards',
                                     })}>
                                     <NavLink to="/app/dashboards/default">
-                                        <i className="iconsmind-Shop-4" /> <IntlMessages id="menu.dashboards" />
+                                        <i className="fas fa-map-marker-alt" /> <IntlMessages id="menu.find" />
+                                    </NavLink>
+                                </NavItem>
+
+                                <NavItem
+                                    className={classnames({
+                                        active:
+                                            (this.state.selectedParentMenu == 'planner' &&
+                                                this.state.viewingParentMenu == '') ||
+                                            this.state.viewingParentMenu == 'planner',
+                                    })}>
+                                    <NavLink to="/app/dashboards/planner">
+                                        <i className="fas fa-route" /> <IntlMessages id="menu.planner" />
                                     </NavLink>
                                 </NavItem>
 
@@ -232,7 +244,7 @@ class Sidebar extends Component {
                                             this.state.viewingParentMenu == 'onlinehelp',
                                     })}>
                                     <NavLink to="/app/applications/chat">
-                                        <i className="simple-icon-bubbles" /> <IntlMessages id="menu.onlinehelp" />
+                                        <i className="fas fa-question-circle" /> <IntlMessages id="menu.onlinehelp" />
                                     </NavLink>
                                 </NavItem>
 
