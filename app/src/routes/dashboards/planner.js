@@ -206,7 +206,17 @@ class TravelPlanner extends Component {
                                         </Colxx>
                                         <Colxx xxs="12" md="4">
                                             <FormGroup>
-                                                <CustomInput type="checkbox" id="bus" label="Shared Bike" />
+                                                <CustomInput type="checkbox" id="bus" label="Car" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="Motorcycle" />
+                                            </FormGroup>
+                                        </Colxx>
+                                        <Colxx xxs="12" md="4">
+                                            <FormGroup>
+                                                <CustomInput type="checkbox" id="bus" label="E-Bike" />
                                             </FormGroup>
                                         </Colxx>
                                         <Colxx xxs="12" md="4">
