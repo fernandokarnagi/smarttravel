@@ -110,6 +110,9 @@ class AuthRegister extends Component {
 
                                                     <Button
                                                         color="empty"
+                                                        onClick={e => {
+                                                            this.props.history.push(`/app/dashboards/default`);
+                                                        }}
                                                         className="btn-outline-semi-light mt-4"
                                                         size="xl">
                                                         {messages['lp.register.buttonlabel']}

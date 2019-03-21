@@ -107,6 +107,9 @@ class AuthLogin extends Component {
                                                     <Button
                                                         color="empty"
                                                         className="btn-outline-semi-light mt-4"
+                                                        onClick={e => {
+                                                            this.props.history.push(`/app/dashboards/default`);
+                                                        }}
                                                         size="xl">
                                                         {messages['lp.login.buttonlabel']}
                                                     </Button>
