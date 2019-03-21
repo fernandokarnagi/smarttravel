@@ -239,6 +239,18 @@ class Sidebar extends Component {
                                 <NavItem
                                     className={classnames({
                                         active:
+                                            (this.state.selectedParentMenu == 'ewallet' &&
+                                                this.state.viewingParentMenu == '') ||
+                                            this.state.viewingParentMenu == 'ewallet',
+                                    })}>
+                                    <NavLink to="/app/dashboards/wallet">
+                                        <i className="fas fa-wallet" /> <IntlMessages id="menu.ewallet" />
+                                    </NavLink>
+                                </NavItem>
+
+                                <NavItem
+                                    className={classnames({
+                                        active:
                                             (this.state.selectedParentMenu == 'onlinehelp' &&
                                                 this.state.viewingParentMenu == '') ||
                                             this.state.viewingParentMenu == 'onlinehelp',

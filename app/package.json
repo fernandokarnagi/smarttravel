@@ -73,6 +73,7 @@
         "firebase": "^5.3.0",
         "moment": "2.22.2",
         "pretty-quick": "^1.10.0",
+        "qrcode.react": "^0.9.3",
         "rc-slider": "^8.6.1",
         "rc-switch": "^1.6.0",
         "react": "^16.4.1",
