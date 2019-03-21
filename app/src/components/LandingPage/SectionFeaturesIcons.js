@@ -26,7 +26,6 @@ export default class SectionFeaturesIcons extends React.Component {
                             <Card>
                                 <CardBody className="text-center">
                                     <div>
-                                        <i className="iconsmind-Mouse-3 large-icon" />
                                         <h5 className="mb-4 font-weight-semibold">
                                             <IntlMessages id="lp.icons.title-1" />
                                         </h5>
@@ -44,7 +43,6 @@ export default class SectionFeaturesIcons extends React.Component {
                             <Card>
                                 <CardBody className="text-center">
                                     <div>
-                                        <i className="iconsmind-Electric-Guitar large-icon" />
                                         <h5 className="mb-4 font-weight-semibold">
                                             <IntlMessages id="lp.icons.title-2" />
                                         </h5>
@@ -62,7 +60,6 @@ export default class SectionFeaturesIcons extends React.Component {
                             <Card>
                                 <CardBody className="text-center">
                                     <div>
-                                        <i className="iconsmind-Keyboard large-icon" />
                                         <h5 className="mb-4 font-weight-semibold">
                                             <IntlMessages id="lp.icons.title-3" />
                                         </h5>
@@ -80,7 +77,6 @@ export default class SectionFeaturesIcons extends React.Component {
                             <Card>
                                 <CardBody className="text-center">
                                     <div>
-                                        <i className="iconsmind-Three-ArrowFork large-icon" />
                                         <h5 className="mb-4 font-weight-semibold">
                                             <IntlMessages id="lp.icons.title-4" />
                                         </h5>
@@ -98,7 +94,6 @@ export default class SectionFeaturesIcons extends React.Component {
                             <Card>
                                 <CardBody className="text-center">
                                     <div>
-                                        <i className="iconsmind-Deer large-icon" />
                                         <h5 className="mb-4 font-weight-semibold">
                                             <IntlMessages id="lp.icons.title-5" />
                                         </h5>
@@ -116,7 +111,6 @@ export default class SectionFeaturesIcons extends React.Component {
                             <Card>
                                 <CardBody className="text-center">
                                     <div>
-                                        <i className="iconsmind-Palette large-icon" />
                                         <h5 className="mb-4 font-weight-semibold">
                                             <IntlMessages id="lp.icons.title-6" />
                                         </h5>
@@ -134,7 +128,6 @@ export default class SectionFeaturesIcons extends React.Component {
                             <Card>
                                 <CardBody className="text-center">
                                     <div>
-                                        <i className="iconsmind-Air-Balloon large-icon" />
                                         <h5 className="mb-4 font-weight-semibold">
                                             <IntlMessages id="lp.icons.title-7" />
                                         </h5>
@@ -152,7 +145,6 @@ export default class SectionFeaturesIcons extends React.Component {
                             <Card>
                                 <CardBody className="text-center">
                                     <div>
-                                        <i className="iconsmind-Pantone large-icon" />
                                         <h5 className="mb-4 font-weight-semibold">
                                             <IntlMessages id="lp.icons.title-8" />
                                         </h5>

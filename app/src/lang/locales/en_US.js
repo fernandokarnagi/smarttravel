@@ -718,31 +718,29 @@ module.exports = {
     'lp.screens.chat': 'Chat',
     'lp.screens.survey': 'Survey',
 
-    'lp.icons.title': 'Not Just Another Theme',
+    'lp.icons.title': 'Not Just Another Travel App',
     'lp.icons.detail':
-        'We tried to create an admin theme that we would like to use ourselves so we listed our priorities. We would like to have a theme that is not over complicated to use, does the job well, contains must have components and looks really nice.',
-    'lp.icons.title-1': 'Right Click Menu',
-    'lp.icons.detail-1': 'Increases overall usability of the project by providing additional actions menu.',
-    'lp.icons.title-2': 'Video Player',
-    'lp.icons.detail-2': 'Carefully themed video player powered by Video.js library with Youtube support.',
-    'lp.icons.title-3': 'Keyboard Shortcuts',
-    'lp.icons.detail-3': 'Easily configurable keyboard shortcuts plugin that highly improves user experience.',
-    'lp.icons.title-4': 'Two Panels Menu',
-    'lp.icons.detail-4': 'Three states two panels icon menu that looks good, auto resizes and does the job well.',
-    'lp.icons.title-5': 'Icons Mind (Save $79)',
-    'lp.icons.detail-5': '1040 icons in 53 different categories, designed pixel perfect and ready for your project.',
-    'lp.icons.title-6': '10 Color Schemes',
-    'lp.icons.detail-6': 'Colors, icons and design harmony that creates excellent themes to cover entire project.',
-    'lp.icons.title-7': '4 Applications',
-    'lp.icons.detail-7':
-        'Applications that mostly made of components are the way to get started to create something similar.',
-    'lp.icons.title-8': 'Lots of Components',
-    'lp.icons.detail-8':
-        'From carousels to charts, switches to lists... All of them themed with same design principles.',
+        'To promote a variety of transport options, based on: shortest distance, fastest route, type of transport and disability friendliness, to ease the management of ticket with online ticket and e-wallet feature, promote card-less & cashless travel for individual/group.',
+    'lp.icons.title-1': 'Membership',
+    'lp.icons.detail-1': 'Register as our member and enjoy benefit for ease transport',
+    'lp.icons.title-2': 'Place Finder',
+    'lp.icons.detail-2': 'Easy way to find places, how to go there, compare travel fees',
+    'lp.icons.title-3': 'E-Ticket',
+    'lp.icons.detail-3': 'Single e-ticket across various transport mode managed within your secured e-wallet',
+    'lp.icons.title-4': 'Recommedation',
+    'lp.icons.detail-4': 'See how we recommend your journey',
+    'lp.icons.title-5': 'Community',
+    'lp.icons.detail-5': 'Get in touch with your friends or family members',
+    'lp.icons.title-6': 'Discounts',
+    'lp.icons.detail-6': 'Collect points and enjoy vouchers in few outlets',
+    'lp.icons.title-7': 'Mobile ready',
+    'lp.icons.detail-7': 'The system is mobile ready',
+    'lp.icons.title-8': 'Free',
+    'lp.icons.detail-8': 'It is a free app',
 
     'lp.features.title': 'The Features You Need',
     'lp.features.detail':
-        'Distinctively exploit optimal alignments for intuitive bandwidth. Quickly coordinate e-business applications through revolutionary catalysts for change. Seamlessly underwhelm optimal testing procedures whereas bricks-and-clicks processes.',
+        'Promote smart cities that provide core infrastructure and give a decent quality of life to its citizens, a clean and sustainable environment and application of ‘Smart’ Solutions.',
 
     'lp.pricing.title': 'Prices for Every Budget',
     'lp.pricing.detail':
@@ -778,7 +776,7 @@ module.exports = {
 
     'lp.contact.title': '24/7 Dedicated Support',
     'lp.contact.detail':
-        'Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override low hanging fruit to identify a ballpark the digital divide with additional clickthroughs from DevOps.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 
     'lp.connect.title': 'Connect with Us',
     'lp.connect.detail':
@@ -792,9 +790,9 @@ module.exports = {
     'lp.connect.button-3': 'WATCH',
     'lp.connect.button-4': 'VIEW',
 
-    'lp.about.title': 'About Our Company',
+    'lp.about.title': 'About Smart Travel',
     'lp.about.detail':
-        'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 
     'lp.timeline.title': 'A Brief History',
     'lp.timeline.detail':
@@ -827,7 +825,7 @@ module.exports = {
 
     'lp.values.title': 'Core Values',
     'lp.values.detail':
-        'Mobilize shared vocabulary mobilize problem-solvers synergy, citizen-centered collective impact low-hanging fruit. Change-makers, empower communities thought leadership ideate grit incubator data.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     'lp.values.title-1': 'Movements when shine philanthropy co-creation our work.',
     'lp.values.title-2': 'Program area and dynamic venture.',
     'lp.values.title-3': 'Citizen-centered collective impact low-hanging fruit.',

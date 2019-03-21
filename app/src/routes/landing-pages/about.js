@@ -85,7 +85,7 @@ class About extends Component {
                                 </Container>
                             </div>
 
-                            <div
+                            {/* <div
                                 className="section"
                                 ref={x => {
                                     this.content = x;
@@ -93,7 +93,7 @@ class About extends Component {
                                 <Container>
                                     <SectionTimeline />
                                 </Container>
-                            </div>
+                            </div> */}
 
                             <div className="section background ">
                                 <Container>
@@ -101,11 +101,11 @@ class About extends Component {
                                 </Container>
                             </div>
 
-                            <div className="section">
+                            {/* <div className="section">
                                 <Container>
                                     <SectionNumbers />
                                 </Container>
-                            </div>
+                            </div> */}
 
                             <div className="section background background-no-bottom mb-0">
                                 <Container>

@@ -152,27 +152,27 @@ class Contact extends Component {
 
                                             <p className="text-primary mb-2">Address</p>
                                             <p className="mb-5">
-                                                35 Little Russell St Bloomsbury London
+                                                507A Wellington Circle
                                                 <br />
-                                                WC1A 2HH UK
+                                                Singapore
                                             </p>
 
                                             <p className="text-primary mb-2">Phone</p>
-                                            <p className="mb-0">+00 42 287 2686</p>
-                                            <p className="mb-5">+00 42 287 2685</p>
+                                            <p className="mb-0">+65 9999 7777</p>
+                                            <p className="mb-5">+65 9999 7778</p>
 
                                             <p className="text-primary mb-2">E-mail</p>
-                                            <p className="mb-0">info@woodentoys.com</p>
+                                            <p className="mb-0">info@smarttravel.com</p>
                                         </Colxx>
                                     </Row>
                                 </Container>
                             </div>
 
-                            <div className="section background background-no-bottom mb-0">
+                            {/* <div className="section background background-no-bottom mb-0">
                                 <Container>
                                     <SectionConnect />
                                 </Container>
-                            </div>
+                            </div> */}
 
                             <div className="section footer mb-0">
                                 <Footer onClick={this.onMenuClick} />

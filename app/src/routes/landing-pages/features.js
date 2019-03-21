@@ -100,7 +100,7 @@ class Features extends Component {
                                 </Container>
                             </div>
 
-                            <div className="section background">
+                            {/* <div className="section background">
                                 <Container>
                                     <Screens />
                                 </Container>
@@ -116,7 +116,7 @@ class Features extends Component {
                                 <Container>
                                     <Offer />
                                 </Container>
-                            </div>
+                            </div> */}
 
                             <div className="section footer mb-0">
                                 <Footer onClick={this.onMenuClick} />
