@@ -1,10 +1,12 @@
-import React, { Component, Fragment } from 'react'
+/** @format */
+
+import React, { Component, Fragment } from 'react';
 import { Badge, Button, Row, Card, CardBody, CardTitle } from 'reactstrap';
 
 import IntlMessages from 'Util/IntlMessages';
 
-import { Colxx, Separator } from 'Components/CustomBootstrap'
-import BreadcrumbContainer from 'Components/BreadcrumbContainer'
+import { Colxx, Separator } from 'Components/CustomBootstrap';
+import BreadcrumbContainer from 'Components/BreadcrumbContainer';
 
 export default class BadgesUi extends Component {
     constructor(props) {
@@ -24,19 +26,35 @@ export default class BadgesUi extends Component {
                     <Colxx xxs="12">
                         <Card className="mb-4">
                             <CardBody>
-                                <CardTitle><IntlMessages id="badge.sizes" /></CardTitle>
-                                <h1>Example Heading <Badge color="secondary">New</Badge></h1>
-                                <h2>Example Heading <Badge color="secondary">New</Badge></h2>
-                                <h3>Example Heading <Badge color="secondary">New</Badge></h3>
-                                <h4>Example Heading <Badge color="secondary">New</Badge></h4>
-                                <h5>Example Heading <Badge color="secondary">New</Badge></h5>
-                                <h6>Example Heading <Badge color="secondary">New</Badge></h6>
+                                <CardTitle>
+                                    <IntlMessages id="badge.sizes" />
+                                </CardTitle>
+                                <h1>
+                                    Example Heading <Badge color="secondary">New</Badge>
+                                </h1>
+                                <h2>
+                                    Example Heading <Badge color="secondary">New</Badge>
+                                </h2>
+                                <h3>
+                                    Example Heading <Badge color="secondary">New</Badge>
+                                </h3>
+                                <h4>
+                                    Example Heading <Badge color="secondary">New</Badge>
+                                </h4>
+                                <h5>
+                                    Example Heading <Badge color="secondary">New</Badge>
+                                </h5>
+                                <h6>
+                                    Example Heading <Badge color="secondary">New</Badge>
+                                </h6>
                             </CardBody>
                         </Card>
 
                         <Card className="mb-4">
                             <CardBody>
-                                <CardTitle><IntlMessages id="badge.colors" /></CardTitle>
+                                <CardTitle>
+                                    <IntlMessages id="badge.colors" />
+                                </CardTitle>
                                 <Badge color="primary" pill className="mb-1">
                                     <IntlMessages id="badge.primary" />
                                 </Badge>{' '}
@@ -65,7 +83,9 @@ export default class BadgesUi extends Component {
                         </Card>
                         <Card className="mb-4">
                             <CardBody>
-                                <CardTitle><IntlMessages id="badge.outline" /></CardTitle>
+                                <CardTitle>
+                                    <IntlMessages id="badge.outline" />
+                                </CardTitle>
                                 <Badge color="outline-primary" pill className="mb-1">
                                     <IntlMessages id="badge.primary" />
                                 </Badge>{' '}
@@ -94,7 +114,9 @@ export default class BadgesUi extends Component {
                         </Card>
                         <Card className="mb-4">
                             <CardBody>
-                                <CardTitle><IntlMessages id="badge.links" /></CardTitle>
+                                <CardTitle>
+                                    <IntlMessages id="badge.links" />
+                                </CardTitle>
                                 <Badge href="#" color="primary" className="mb-1">
                                     <IntlMessages id="badge.primary" />
                                 </Badge>{' '}
@@ -123,7 +145,9 @@ export default class BadgesUi extends Component {
                         </Card>
                         <Card className="mb-4">
                             <CardBody>
-                                <CardTitle><IntlMessages id="badge.counter-badges" /></CardTitle>
+                                <CardTitle>
+                                    <IntlMessages id="badge.counter-badges" />
+                                </CardTitle>
                                 <Button color="primary">
                                     Notifications <Badge color="light">4</Badge>
                                 </Button>{' '}
@@ -166,6 +190,6 @@ export default class BadgesUi extends Component {
                     </Colxx>
                 </Row>
             </Fragment>
-        )
+        );
     }
 }

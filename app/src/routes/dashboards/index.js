@@ -1,3 +1,5 @@
+/** @format */
+
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
@@ -15,7 +17,6 @@ const Dashboards = ({ match }) => (
             <Route path={`${match.url}/ecommerce`} component={ecommerceDash} />
             <Route path={`${match.url}/analytics`} component={analyticsDash} />
             <Redirect to="/error" />
-
         </Switch>
     </div>
 );

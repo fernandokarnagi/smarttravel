@@ -1,14 +1,16 @@
+/** @format */
+
 import {
     LOGIN_USER,
     LOGIN_USER_SUCCESS,
     REGISTER_USER,
     REGISTER_USER_SUCCESS,
-    LOGOUT_USER
+    LOGOUT_USER,
 } from 'Constants/actionTypes';
 
 const INIT_STATE = {
     user: localStorage.getItem('user_id'),
-    loading: false
+    loading: false,
 };
 
 export default (state = INIT_STATE, action) => {
@@ -22,7 +24,8 @@ export default (state = INIT_STATE, action) => {
         case REGISTER_USER_SUCCESS:
             return { ...state, loading: false, user: action.payload.uid };
         case LOGOUT_USER:
-            return { ...state ,user:null};
-        default: return { ...state };
+            return { ...state, user: null };
+        default:
+            return { ...state };
     }
-}
+};

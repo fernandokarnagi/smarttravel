@@ -1,3 +1,5 @@
+/** @format */
+
 import { combineReducers } from 'redux';
 import settings from './settings/reducer';
 import menu from './menu/reducer';
@@ -9,14 +11,14 @@ import surveyDetailApp from './surveyDetail/reducer';
 import landingPage from './landingPage/reducer';
 
 const reducers = combineReducers({
-  menu,
-  settings,
-  authUser,
-  todoApp,
-  chatApp,
-  surveyListApp,
-  surveyDetailApp,
-  landingPage
+    menu,
+    settings,
+    authUser,
+    todoApp,
+    chatApp,
+    surveyListApp,
+    surveyDetailApp,
+    landingPage,
 });
 
 export default reducers;

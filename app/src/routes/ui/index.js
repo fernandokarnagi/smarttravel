@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { Component } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
@@ -19,7 +21,6 @@ import modal from './modal';
 import navigation from './navigation';
 import popoverTooltip from './popover-tooltip';
 import sortable from './sortable';
-
 
 export default class Ui extends Component {
     constructor(props) {
@@ -50,8 +51,7 @@ export default class Ui extends Component {
                 <Route path={`${match.url}/popover-tooltip`} component={popoverTooltip} />
                 <Route path={`${match.url}/sortable`} component={sortable} />
                 <Redirect to="/error" />
-
             </Switch>
-        )
-    };
+        );
+    }
 }
